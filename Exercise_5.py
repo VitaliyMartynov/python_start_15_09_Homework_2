@@ -1,4 +1,5 @@
-import random
-x = random.randint(100, 999)
-y = random.randint(100, 999)
-print(x + y)
+x = int(input('enter number '))
+a = x % 10
+b = x % 100 // 10
+c = x % 1000 // 100
+print(a + b + c)
